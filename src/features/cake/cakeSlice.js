@@ -16,4 +16,4 @@ const cakeSlice = createSlice({
 })
 
 export default cakeSlice.reducer
-export const cakeActions = cakeSlice.actions
+export const { ordered, restocked } = cakeSlice.actions
